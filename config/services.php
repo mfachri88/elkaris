@@ -43,7 +43,7 @@ return [
         'api_key' => env('GROQ_API_KEY'),
     ],
     'openrouter' => [
-        'api_key' => env('OPENROUTER_API_KEY', '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'),
+        'api_key' => env('OPENROUTER_API_KEY', ''),
         'base_url' => env('OPENROUTER_URL', 'https://openrouter.ai/nvidia/llama-3.1-nemotron-ultra-253b-v1:free'),
         'model' => env('OPENROUTER_MODEL', 'nvidia/llama-3.1-nemotron-ultra-253b-v1:free'),
     ],
